@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout11">
+  <EditText
+      p1:id="@+id/txtName"
+      p1:minWidth="10px"
+      p1:minHeight="10px"
+      p1:hint="name"
+      p1:layout_width="fill_parent"
+      p1:layout_height="wrap_content"
+      p1:scrollHorizontally="false"
+      p1:scrollbars="vertical" />
+  <EditText
+      p1:id="@+id/txtAge"
+      p1:minWidth="10px"
+      p1:minHeight="10px"
+      p1:hint="Age"
+      p1:layout_width="fill_parent"
+      p1:layout_height="wrap_content"
+      p1:scrollHorizontally="false"
+      p1:scrollbars="vertical" />
+  <Button
+      p1:text="Add"
+      p1:layout_width="match_parent"
+      p1:layout_height="wrap_content"
+      p1:id="@+id/button1" />
+
+  <EditText
+     p1:id="@+id/txtid"
+     p1:minWidth="10px"
+     p1:minHeight="10px"
+     p1:hint="ID"
+     p1:layout_width="fill_parent"
+     p1:layout_height="wrap_content"
+     p1:scrollHorizontally="false"
+     p1:scrollbars="vertical" />
+  <Button
+    p1:text="GetDetails"
+    p1:layout_width="match_parent"
+    p1:layout_height="wrap_content"
+    p1:id="@+id/Get"/>
+  
+  
+  
+
+
+
+
+</LinearLayout>
